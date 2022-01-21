@@ -1,0 +1,10 @@
+.reactioncontroller__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.reactioncontroller__column {
+    display: flex;
+    flex-direction: column;
+}

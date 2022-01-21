@@ -1,0 +1,12 @@
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+}
+
+.loginInputBox {
+    flex: 0;
+    display: flex;
+    margin-bottom: 16px;
+}

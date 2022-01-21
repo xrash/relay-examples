@@ -1,0 +1,1 @@
+export { PaginatedRepos } from './PaginatedRepos'

@@ -1,0 +1,13 @@
+.container {
+    flex: 1;
+    display: flex;
+}
+
+.pr {
+    background-color: #F4D0B5;
+    padding: 16px;
+}
+
+.form {
+    padding: 16px;
+}
