@@ -31,10 +31,6 @@ const examples = [
     title: 'Example 6: Cursor pagination while avoiding Suspense with fetchQuery',
     path: '/examples/example-6',
   },
-  {
-    title: 'Sandbox (unstable)',
-    path: '/sandbox',
-  },
 ]
 
 export const Summary = () => {
