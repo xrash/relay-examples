@@ -12,10 +12,6 @@ const examples = [
     path: '/examples/example-1',
   },
   {
-    title: 'Example 1: Cursor pagination with useLazyLoadQuery',
-    path: '/examples/example-1',
-  },
-  {
     title: 'Example 2: Infinite pagination with usePaginationFragment',
     path: '/examples/example-2',
   },
