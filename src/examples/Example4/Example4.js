@@ -11,6 +11,7 @@ export const Example4 = () => {
       <div className={styles.container}>
         <div>
           <input
+            placeholder="owner"
             className="input"
             type="text"
             value={owner}
@@ -22,6 +23,7 @@ export const Example4 = () => {
         <div className="spacer32"></div>
         <div>
           <input
+            placeholder="repo"
             className="input"
             type="text"
             value={repo}

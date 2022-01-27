@@ -20,7 +20,7 @@ const examples = [
     path: '/examples/example-3',
   },
   {
-    title: 'Example 4: useMutation adding item to a list then refetching the list',
+    title: 'Example 4: useMutation adding item to a list then refetching the list + useFragment example',
     path: '/examples/example-4',
   },
   {
@@ -32,7 +32,7 @@ const examples = [
     path: '/examples/example-6',
   },
   {
-    title: 'Example 7: Using directives to append and delete nodes/edges',
+    title: 'Example 7: Using directives @appendNode and @deleteEdge to avoid having to refetch',
     path: '/examples/example-7',
   },
 ]
