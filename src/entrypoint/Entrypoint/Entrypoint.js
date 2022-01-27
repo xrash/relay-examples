@@ -9,6 +9,7 @@ import { Example3 } from 'examples/Example3'
 import { Example4 } from 'examples/Example4'
 import { Example5 } from 'examples/Example5'
 import { Example6 } from 'examples/Example6'
+import { Example7 } from 'examples/Example7'
 import { Sandbox } from 'components/Sandbox'
 import { ViewerProvider } from 'lib/viewer'
 import { Switch, Route } from "wouter"
@@ -26,6 +27,7 @@ export const Entrypoint = () => {
             <Route path="/examples/example-4" component={Example4} />
             <Route path="/examples/example-5" component={Example5} />
             <Route path="/examples/example-6" component={Example6} />
+            <Route path="/examples/example-7" component={Example7} />
             <Route path="/sandbox" component={Sandbox} />
             <Route component={Summary} />
           </Switch>

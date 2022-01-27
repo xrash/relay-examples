@@ -31,6 +31,10 @@ const examples = [
     title: 'Example 6: Cursor pagination while avoiding Suspense with fetchQuery',
     path: '/examples/example-6',
   },
+  {
+    title: 'Example 7: Using directives to append and delete nodes/edges',
+    path: '/examples/example-7',
+  },
 ]
 
 export const Summary = () => {

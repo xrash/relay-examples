@@ -23,12 +23,9 @@ export const ViewerProvider = ({ children }) => {
   const data = useLazyLoadQuery(ViewerProviderQuery);
 
   const { login } = data.viewer
-  const { repositories } = data.viewer
-  const firstRepo = repositories.edges[0].node.name
 
   const value = {
     login,
-    firstRepo,
   }
 
   return (

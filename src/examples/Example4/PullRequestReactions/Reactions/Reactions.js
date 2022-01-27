@@ -41,7 +41,7 @@ export const Reactions = ({ owner, name, pullRequestNumber, fetchKey }) => {
   }, {
     fetchKey,
     fetchPolicy: 'store-and-network',
-  });
+  })
 
   if (!data.repository) {
     return (
